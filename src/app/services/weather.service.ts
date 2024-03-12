@@ -12,7 +12,7 @@ export class WeatherService {
 
   getWeather() {
     const url = `${this.apiUrl}/stations/${this.settingsService.settings.station}/observations/latest?require_qc=true`;
-    return this.http.get(url);
+    return this.http.get(url); 
   }
 
   getForecast() {
