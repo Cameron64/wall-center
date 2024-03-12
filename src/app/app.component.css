@@ -1,5 +1,3 @@
-@import 'milligram/dist/milligram.min.css';
-
 @media (orientation: portrait) {
     .landscape {
         flex-direction: column;
