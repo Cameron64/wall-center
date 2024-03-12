@@ -1,0 +1,10 @@
+.temperature {
+    font-size: 6em;
+    color: #333333;
+    text-align: center; 
+}
+.conditions {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
